@@ -23,8 +23,7 @@ body {
     width: 800px;
     margin: 100px auto;
     border-radius: 8px;
-    padding: 32px;
-    padding-left: 86px;
+    padding: 32px 48px 32px 86px;
     display: flex;
     align-items: center;
     gap: 86px; 
@@ -88,4 +87,26 @@ img {
 .btn-icon {
     font-size: 24px;
     color: #087f5b;
+}
+
+.dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 32px);
+    display: flex;
+    gap: 12px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 2px solid #087f5b;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot:first-child {
+    background-color: #087f5b;
 }
