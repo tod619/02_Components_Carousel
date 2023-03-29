@@ -17,3 +17,7 @@ body {
     line-height: 1;
     color: #343a40;
 }
+
+img {
+    height: 200px;
+}
